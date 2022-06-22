@@ -1,0 +1,167 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    font-style: oblique;    
+}
+
+body {
+margin: 0%;
+
+}
+
+header,
+footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color:black;
+    text-align: center;
+    text-decoration:solid;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;   
+    display: flex;
+    justify-content: center;
+
+}
+
+title {
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2.5rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    text-align:left;
+}
+
+figure {
+    width: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    display:flex;
+}
+
+
+img {
+    border: 9px solid black;
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;       
+}
+
+
+
+aside {
+    justify-content:left;
+    display:flex;
+    align-items: center;
+}
+
+.projects figure {
+width: 30%;
+height: 30%;
+}
+
+.projects img {
+    opacity: 0.5;
+    
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
+nav {
+ display: flex;
+ background-color: blanchedalmond
+}
+
+nav a {
+padding: 20px 20px;
+display: inline;
+text-align: center;
+background-color: blanchedalmond;
+border-top: 10px solid black;
+border-bottom: 10px solid black;
+width: 100%;
+font-size: larger;
+}
+
+p{
+display:flex;
+justify-content: left;
+
+}
+
+#contact-section {
+    background-color: black; 
+
+}
+
+ul li {
+text-align: left;
+
+}
+
+.card {
+    display:flex;
+    flex-wrap: wrap;
+    background-color:blanchedalmond;
+    border-top: 10px solid black ;
+    border-bottom: 10px solid black;
+}
+
+
+
+.container figure {
+    position: relative;
+    width: 40%;
+    height: 90%; 
+      
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    background-color: blanchedalmond;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:992px) {
+    footer {
+     background-color: blanchedalmond;
+    } 
+
+
+    
+}
+@media screen and (max-width:768px) {
+    header {
+        background-color: blue;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    aside {
+        background-color: darkorange;
+    }
+}
+ 
+
+
+
